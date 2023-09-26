@@ -24,7 +24,10 @@ data = {
         "What is the system of reporting of occupational diseases in the Factories?",
         "What actions are initiated against the management for violation of the provisions of the Act?",
         "What are the major initiatives taken by DGFASLI to improve safety and health of the workers in the manufacturing sector?",
-
+        "How are occupational diseases reported and managed under the Factories Act?",
+        "What is the significance of the Factories Act in ensuring workplace safety in industries?",
+        "How does the Mines Rescue Rules, 1985, address emergency response in mining accidents?",
+        "What is the role of the Coal Mines Welfare Commissioner in ensuring the welfare of coal miners?"
     ],
     'answer': [
         "The MMRD Act stands for Mines and Minerals (Development and Regulation) Act.",
@@ -228,7 +231,16 @@ statutes.
 • Conducts professional and academic training programmes for 
 supervisors, safety officers, factory medical officers, specialised 
 certificate course for competent supervisions in hazardous process 
-industries.'''
+industries.''',
+'''The Factories Act requires the reporting of occupational diseases. When a worker contracts a notifiable disease,
+it must be reported to the inspector of factories, and necessary measures are taken to prevent further occurrences.''',
+'''The Factories Act contains provisions related to the safety, health, and welfare of workers in industrial establishments.
+It sets standards for workplace safety and ensures that employers provide a safe working environment.''',
+'''The Mines Rescue Rules, 1985, lay down procedures for handling emergencies,
+including rescue and recovery operations in the event of accidents or disasters in mines, 
+ensuring the safety of miners.''',
+'''The Coal Mines Welfare Commissioner is responsible for implementing welfare schemes for coal miners, 
+including housing, medical facilities, education, and social amenities, to improve their quality of life.'''
 
 
     ]
