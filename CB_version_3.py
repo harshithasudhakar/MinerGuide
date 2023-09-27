@@ -1,4 +1,4 @@
-import aI_model_to_train
+import Update model_for_chatbot
 
 mining_qa = {
     "What is mining?": "Mining is the process of extracting valuable minerals or other geological materials from the earth.",
