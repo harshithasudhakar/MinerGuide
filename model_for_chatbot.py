@@ -6,9 +6,7 @@ from sklearn.model_selection import train_test_split
 import numpy as np
 
 # Step 1: Prepare your training and validation datasets
-data = {
-    'question': [
-        "What is the MMRD Act?",
+question= ["What is the MMRD Act?",
         "What does Section 2 of the MMRD Act declare?",
         "What are the Existing Legislative Provisions regarding safety, health and welfare of mine workers? ",
         "How the Compliance of the Provisions are ensured?",
@@ -27,9 +25,8 @@ data = {
         "How are occupational diseases reported and managed under the Factories Act?",
         "What is the significance of the Factories Act in ensuring workplace safety in industries?",
         "How does the Mines Rescue Rules, 1985, address emergency response in mining accidents?",
-        "What is the role of the Coal Mines Welfare Commissioner in ensuring the welfare of coal miners?"
-    ],
-    'answer': [
+        "What is the role of the Coal Mines Welfare Commissioner in ensuring the welfare of coal miners?"]
+answer = [
         "The MMRD Act stands for Mines and Minerals (Development and Regulation) Act.",
         "Section 2 of the MMRD Act declares that it is expedient in the public interest for the Union to control the regulation of mines and mineral development.",
         '''Under the Constitution of India, safety, welfare and health of workers employed in mines are the concern of the Central Government (Entry 55- Union List- Article 246).The objective is regulated by the Mines Act, 1952 and the Rules and Regulations framed thereunder which are administered by the 
@@ -237,14 +234,10 @@ it must be reported to the inspector of factories, and necessary measures are ta
 '''The Factories Act contains provisions related to the safety, health, and welfare of workers in industrial establishments.
 It sets standards for workplace safety and ensures that employers provide a safe working environment.''',
 '''The Mines Rescue Rules, 1985, lay down procedures for handling emergencies,
-including rescue and recovery operations in the event of accidents or disasters in mines, 
+including rescue and recovery operations in the event of accidents or disasters in mines,
 ensuring the safety of miners.''',
-'''The Coal Mines Welfare Commissioner is responsible for implementing welfare schemes for coal miners, 
-including housing, medical facilities, education, and social amenities, to improve their quality of life.'''
-
-
-    ]
-}
+'''The Coal Mines Welfare Commissioner is responsible for implementing welfare schemes for coal miners,
+including housing, medical facilities, education, and social amenities, to improve their quality of life.''']
 
 df = pd.DataFrame(data)
 df.to_csv('qa_dataset.csv', index=False)
